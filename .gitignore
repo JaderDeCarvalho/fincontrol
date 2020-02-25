@@ -1,0 +1,46 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/fincontrol-app/dist
+/fincontrol-app/tmp
+/fincontrol-app/out-tsc
+# Only exists if Bazel was run
+/fincontrol-app/bazel-out
+
+# dependencies
+/fincontrol-app/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/fincontrol-app/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/fincontrol-app/.sass-cache
+/fincontrol-app/connect.lock
+/fincontrol-app/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/fincontrol-app/typings
+
+# System Files
+.DS_Store
+Thumbs.db
