@@ -13,6 +13,11 @@ const routes: Routes = [
       {path: 'login', component: LoginComponent},
       {path: 'registration', component: RegistrationComponent},
     ]
+  },
+  {
+    path: '',
+    redirectTo: '/user/login',
+    pathMatch: 'full'
   }
 ];
 
