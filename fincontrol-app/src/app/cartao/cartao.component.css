@@ -1,0 +1,36 @@
+.banco-cartao {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.numero-cartao {
+    font-size: 32px;
+}
+
+.bandeira-cartao {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.card { margin-top: 20px; }
+
+.bg-bradesco, .bg-santander {
+    background-color: #DB232F;
+}
+
+.bg-nubank {
+    background-color: #7B1E7A;
+}
+
+.bg-itau {
+    background-color: #FF7700;
+}
+
+.bg-banco-brasil {
+    background-color: #EDED00;
+    color: #67676D !important;
+}
+
+.bg-caixa-economica {
+    background-color: #1380B2;
+}
